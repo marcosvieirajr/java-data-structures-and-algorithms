@@ -6,7 +6,7 @@ Data structures and algorithms' implementation with the `Java` programming langu
 
 ### Linear data structures
 
-- [ ] Arrays
+- [x] Arrays
 - [ ] Linked Lists
 - [ ] Stacks
 - [ ] Queues
