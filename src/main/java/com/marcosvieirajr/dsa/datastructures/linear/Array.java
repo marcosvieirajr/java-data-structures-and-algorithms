@@ -93,9 +93,8 @@ public class Array {
     public void reverse() {
         int[] reversed = new int[count];
 
-        int j = 0;
-        for (int i = count - 1; i >= 0; i--)
-            reversed[j++] = itens[i];
+        for (int i = 0; i < count; i++)
+            reversed[i] = itens[count - i - 1];
 
         itens = reversed;
     }
